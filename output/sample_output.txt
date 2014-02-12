@@ -1,0 +1,51 @@
+Begin Program ... 
+Collating files ... 
+Creating graph objects ... 
+Number of edges :  8  Number of vertices :  5
+[(0, 1), (0, 2), (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
+Number of edges :  10  Number of vertices :  6
+[(0, 1), (0, 5), (1, 2), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5), (3, 4), (4, 5)]
+Number of edges :  10  Number of vertices :  7
+[(0, 1), (0, 3), (1, 2), (1, 3), (2, 3), (3, 4), (3, 5), (3, 6), (4, 5), (5, 6)]
+Number of edges :  6  Number of vertices :  5
+[(0, 1), (0, 2), (1, 2), (2, 3), (2, 4), (3, 4)]
+Creating feature matrices ... 
+For graph 7 features for all nodes :
+   f1        f2        f3        f4  f5  f6  f7
+0   2  1.000000  4.000000  0.666667   3   2   4
+1   4  0.666667  3.000000  0.916667   8   0   0
+2   4  0.666667  3.000000  0.916667   8   0   0
+3   3  1.000000  3.666667  0.777778   6   1   2
+4   3  1.000000  3.666667  0.777778   6   1   2
+For graph 7 features for all nodes :
+   f1        f2   f3        f4  f5  f6  f7
+0   2  1.000000  4.0  0.666667   3   2   4
+1   4  0.666667  3.5  0.750000   8   1   2
+2   4  0.666667  3.5  0.750000   8   1   2
+3   2  1.000000  4.0  0.666667   3   2   4
+4   4  0.666667  3.5  0.750000   8   1   2
+5   4  0.666667  3.5  0.750000   8   1   2
+For graph 7 features for all nodes :
+   f1        f2        f3        f4  f5  f6  f7
+0   2  1.000000  4.500000  0.466667   3   4   5
+1   3  0.666667  3.333333  0.755556   5   3   3
+2   2  1.000000  4.500000  0.466667   3   4   5
+3   6  0.266667  2.333333  0.888889  10   0   0
+4   2  1.000000  4.500000  0.466667   3   4   5
+5   3  0.666667  3.333333  0.755556   5   3   3
+6   2  1.000000  4.500000  0.466667   3   4   5
+For graph 7 features for all nodes :
+   f1        f2  f3        f4  f5  f6  f7
+0   2  1.000000   3  0.666667   3   2   2
+1   2  1.000000   3  0.666667   3   2   2
+2   4  0.333333   2  1.000000   6   0   0
+3   2  1.000000   3  0.666667   3   2   2
+4   2  1.000000   3  0.666667   3   2   2
+Aggregating features ... 
+Pairwise Comparison of graphs ... 
+	 Distance between graph 0 and graph  1 9.24527157016
+	 Distance between graph 0 and graph  2 16.5186881862
+	 Distance between graph 0 and graph  3 16.0514393551
+	 Distance between graph 1 and graph  2 18.397686093
+	 Distance between graph 1 and graph  3 18.2470798269
+	 Distance between graph 2 and graph  3 8.7465705044

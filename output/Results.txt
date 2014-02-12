@@ -1,0 +1,66 @@
+Results:
+
+Results in simple graphs
+========================
+Begin Program ...
+Collating files from  C:\\graphs\  ...
+Creating graph objects ...
+Creating feature matrices ...
+Processing graph  0
+For graph 7 features for all nodes :
+Processing graph  1
+For graph 7 features for all nodes :
+Processing graph  2
+For graph 7 features for all nodes :
+Processing graph  3
+For graph 7 features for all nodes :
+Aggregating features ...
+Pairwise Comparison of graphs ...
+         Distance between graph 0 and graph  1 9.24527157016
+         Distance between graph 0 and graph  2 16.5186881862
+         Distance between graph 0 and graph  3 16.0514393551
+         Distance between graph 1 and graph  2 18.397686093
+         Distance between graph 1 and graph  3 18.2470798269
+         Distance between graph 2 and graph  3 8.7465705044
+		 
+
+Results for eron(graph 0), p2p-Gnutella(graph 1) and reality_mining_voices(graph 2)
+===================================================================================
+Begin Program ...
+Collating files from  C:\\graphs\\test\  ...
+Creating graph objects ...
+Creating feature matrices ...
+Processing graph  0
+For graph 7 features for all nodes :
+Processing graph  1
+For graph 7 features for all nodes :
+Processing graph  2
+For graph 7 features for all nodes :
+Aggregating features ...
+Pairwise Comparison of graphs ...
+         Distance between graph 0 and graph  1 21.2833103689
+         Distance between graph 0 and graph  2 20.4080944889
+         Distance between graph 1 and graph  2 23.8900071903
+		 
+
+
+Results for as-733(graph 0), eron(graph 1), p2p-Gnutella(graph 2) and reality_mining_voices(graph 3)
+====================================================================================================
+Begin Program ...
+Collating files from  C:\\graphs\\test\  ...
+Creating graph objects ...
+Creating feature matrices ...
+Processing graph  0
+Processing graph  1
+Processing graph  2
+Processing graph  3
+Aggregating features ...
+Pairwise Comparison of graphs ...
+         Distance between graph 0 and graph  1 22.5891409438
+         Distance between graph 0 and graph  2 21.2369503528
+         Distance between graph 0 and graph  3 23.9198582561
+         Distance between graph 1 and graph  2 21.2833103689
+         Distance between graph 1 and graph  3 20.4080944889
+         Distance between graph 2 and graph  3 23.8900071903
+		 
+		 

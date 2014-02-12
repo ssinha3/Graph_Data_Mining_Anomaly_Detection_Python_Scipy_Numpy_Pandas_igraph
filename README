@@ -1,0 +1,36 @@
+Requirements:
+============
+*Software that needs to be installed (if any) with URL’s to download and instructions to install them.*
+Requires Python 2.7 with several libraries: igraph, numpy, and pandas.
+The best way to get numpy and pandas is to use Anaconda to install Python: https://store.continuum.io/cshop/anaconda/.
+igraph should be install with the directions here: https://pypi.python.org/pypi/python-igraph.
+
+_Environment variable settings (if any) and OS it should/could run on._
+=======================================================================
+None.
+
+_Instructions on how to run the program._
+=========================================
+Program is run from the command line with a single argument: the path to a zipped graph file. Graph file format is in the edge
+list structure of the graphs provided in class.
+For sample code run
+
+```````````````````````EXAMPLE``````````````````````````
+1. unzip the csc-591-Project-Anomaly-Detection.zip
+2. cd csc-591-Project-Anomaly-Detection/
+3. python Python/netsimile.py "graphs\\"
+````````````````````````````````````````````````````````
+
+_Instructions on how to interpret the results._
+===============================================
+Program prints all the graph edges, along with the feature matrices
+ and finally distance between every pair of graphs.
+
+Sample Input/Output File
+========================
+Provided in csc-591-Project-Anomaly-Detection/output directory
+Provided in csc-591-Project-Anomaly-Detection/graphs directory
+
+Tested On
+=========
+sample graphs
